@@ -1,0 +1,81 @@
+
+# Personal notes and documentation
+*.md
+*.MD
+*.txt
+*.backup
+
+# Papers, manuscript sources and generated LaTeX files
+*.pdf
+*.tex
+*.aux
+*.out
+*.toc
+*.bbl
+*.blg
+*.synctex.gz
+
+# Presentations and personal documents
+*.ppt
+*.pptx
+*.doc
+*.docx
+*.odt
+*.rtf
+
+# Images and screenshots (can selectively include later)
+*.png
+*.jpg
+*.jpeg
+*.webp
+
+# Datasets and generated data
+data/
+Data/
+datasets/
+Datasets/
+derived/
+*.csv
+*.parquet
+*.pkl
+*.pickle
+*.joblib
+
+# Research papers, reports and private presentation material
+report/
+tiv_revision/sections/
+tiv_revision/tables/
+tiv_revision/presentation/
+tiv_revision/combined.tex
+tiv_revision/preview_article.tex
+
+# Logs, temporary files and generated outputs
+logs/
+output/
+outputs/
+results/
+__pycache__/
+*.pyc
+*.log
+*.tmp
+
+# Local configuration and secrets
+.env
+.env.*
+*.pem
+*.key
+secrets/
+credentials/
+
+# Large simulator installation and packaged demos
+CARLA/
+Test_Demo/
+
+# Personal screenshots
+req pics/
+
+# Editors and operating system files
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
